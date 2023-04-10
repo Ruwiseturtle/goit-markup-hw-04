@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 .images-width{
     display: block;
     width: 100%;
-    margin-bottom: 32px;
+   
 }
 
 .section .images-description{
@@ -457,9 +457,8 @@ h1, h2, h3, h4, h5, h6, p, ul{
 }
 
 .member-container{
-    padding-bottom: 32px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 32px 0;
+    
 }
 
 .list-networks{
