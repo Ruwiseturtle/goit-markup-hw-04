@@ -153,6 +153,9 @@ h1, h2, h3, h4, h5, h6, p, ul{
 
 .header-main{
     border-bottom: 1px solid var(--btn-background-color);
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-page{
@@ -319,9 +322,13 @@ h1, h2, h3, h4, h5, h6, p, ul{
 
 .quality-icon{
     padding:  24px 102px;
-    display:  block;
+    display:  flex;
     background-color: var(--third-text-color);
+    align-items: center;
+    justify-content: center;
     margin-bottom: 8px;
+    height: 112px;
+    border-radius: 4px;
 }
 
 .qualities-text{
